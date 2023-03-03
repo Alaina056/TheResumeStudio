@@ -1,0 +1,143 @@
+.contactus-section {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 90vh;
+  /*margin-bottom: 8rem;
+  margin-top: 9rem;*/
+  margin-bottom: 13rem;
+  gap: 10px;
+  margin: 15rem 0;
+}
+
+.contactus-text{
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+}
+.contactus-heading>span{
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+
+.contact-form{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contact-input-feild {
+  margin-bottom: 0rem;
+  height: 3rem;
+  font-size: 2em;
+}
+
+.contact-rightside form .form-control {
+  
+  height: 60px;
+  border-radius: 8px;
+  font-size: 25px;
+  outline: none;
+  border: 3px solid var(--orange);
+  padding-left: 15px;
+  font-weight: lighter;
+  
+}
+
+.contact-rightside form .form-check-input {
+  width: 1rem;
+  height: 2rem;
+}
+
+.form-checkbox-style {
+  margin: 0rem;
+}
+.row-contact{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border: 10px solid black; */
+  margin-bottom: 5px;
+
+}
+#emailid{
+  width: 583px;
+  padding: 0px;
+  padding-left: 12px;
+  
+}
+#submitbutton{
+  width: 100px !important;
+  margin-right: 280px !important;
+  /* margin-top: 5px !important; */
+  border-radius: 8px !important;
+}
+
+textarea{
+height: 200px!important;
+}
+.contact-rightside form .main-hero-para {
+  font-size: 1rem;
+  color: var(--gray);
+  margin: 0;
+  font-weight: lighter;
+  width: 75%;
+  padding: 0 2rem;
+}
+
+.c-blurl{
+  top: 1rem;
+  left: 20rem;
+}
+
+.static-msg{
+font-weight: bold;
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+align-items: center;
+color: var(--orange);
+}
+#firstname,lastname{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid var(--orange);
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+input[type='email'],
+input[type='number'],
+select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid var(--orange);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"]{
+  width: 100%;
+  background-color: var(--orange);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 200px;
+  
+}
+input[type="submit"]:hover{
+  background-color: var(--gray);
+
+}

@@ -1,0 +1,31 @@
+.help-text{
+    display: flex;
+    flex-direction: column;
+}
+.help-text>:nth-child(1){                 /*the resume studio text styling*/
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+} 
+
+.help-text>:nth-child(2){                 /*the resume studio text styling*/
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.help{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.help-videos{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+
+

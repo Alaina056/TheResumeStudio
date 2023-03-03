@@ -1,0 +1,169 @@
+.reference{
+  box-shadow: 0px 1px 5px  rgba(0, 0, 0, 0.3);
+}
+.container3 {
+  color: #181818;
+  --color: #239ce2;
+  background-color: white;
+  flex: 1.2;
+  height: fit-content;
+  min-height: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 555px;
+  padding: 60px;
+  margin-left: 10px;
+  
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header .heading {
+  font-size: 2.2rem;
+  font-weight:bold;
+  text-transform: capitalize;
+  margin-bottom:0px;
+  margin-top:0px;
+}
+
+.header .subHeading {
+  color: var(--color);
+  font-weight:bold;
+  font-size: 1.3rem;
+}
+
+.header .links {
+  margin-top: 15px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+
+.header .link {
+  font-size: 0.875rem;
+  display:inline;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.header .link svg {
+  color: var(--color);
+  height: 16px;
+  width: 16px;
+}
+
+.main {
+  display: flex;
+  gap: 30px;
+}
+
+.col1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.col2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section .sectionTitle {
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 100%;
+  border-bottom: 1px inset #181818;
+}
+
+.section .content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+}
+.section .content .item {
+  border-bottom: 1px dotted lightgray;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.section .content .item:last-child {
+  border-bottom: none;
+}
+
+.content .title {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+.content .subTitle {
+  font-weight: bold;
+  color: var(--color);
+  font-size: 1rem;
+  margin-top: 0px;
+}
+
+.content .overview {
+  font-size: 0.875rem;
+}
+
+.content .link {
+  display: flex;
+  gap: 5px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: var(--color);
+}
+.content .link svg {
+  height: 14px;
+  width: 14px;
+  color: var(--color);
+}
+
+.content .date {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.content .date svg {
+  height: 14px;
+  width: 14px;
+}
+
+.content .points,
+.numbered {
+  padding-left: 18px;
+  font-size: 0.875rem;
+}
+
+.numbered li {
+  list-style-type: decimal;
+}
+
+.hidden {
+  display: none;
+}
+@media only screen and (max-width:700px){
+  .container3{
+    overflow: hidden;
+    width: 515px;
+    height: 90px;
+    padding-top:30px;
+    padding-left:30px;
+    padding-right:30px;
+    margin-left:30px;
+    padding-bottom:60px;
+    gap: 5px;
+  }
+} 

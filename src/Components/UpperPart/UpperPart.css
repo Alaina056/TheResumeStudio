@@ -1,0 +1,99 @@
+.header{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.head-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.head-text{
+    display: flex;
+    flex-direction: column;
+}
+.head-text>:nth-child(1){                 /*the resume studio text styling*/
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+} 
+
+.head-text>:nth-child(2){                 /*the resume studio text styling*/
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+} 
+
+.head-text>:nth-child(3){
+    font-weight: 100;
+    font-size: 20px;
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+.head-right{
+    flex: 1;
+    position: relative;
+}
+
+.head-right>*{
+    position: absolute;
+    z-index: 1;
+} 
+
+.cards {
+    position: relative;
+}
+
+.cards > * {
+    position: absolute;
+  }
+  
+.head-button{
+    width: 8rem;
+    height: 3rem;
+}
+.resumeHeader > img {
+    transform: scale(0.1);
+    width: 45px;
+    height: 60px;
+
+}
+
+.yellow{
+    margin-top: 72px;
+    margin-left: 111px;
+    position:absolute;
+    width: 300px;
+    z-index: 1;
+    height: 300px;
+    background: url('/src/img/yellow.png');
+}
+.blue-dark{
+    margin-top: -91px;
+    margin-left: 300px;
+    position:absolute;
+    filter: brightness(100);
+    width: 300px;
+    height: 300px;
+    background:url('/src/img/blue.png');
+}
+.blue-light{
+    margin-top: -89px;
+    margin-left: 300px;
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    background:url('/src/img/blue.png');
+}
+
+@media screen and (max-width: 480px) {
+    .head-left{
+        flex-direction: column;
+    }
+  }

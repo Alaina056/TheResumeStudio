@@ -1,0 +1,176 @@
+
+
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: #eed2ff;
+    --boxShadow : 0px 19px 60px #00000014;
+    --orangeCard: #fca61f73;
+    --smboxShadow: -79px 51px 60px #00000014; 
+}
+
+.ediprofhover a p {display:none;}
+.ediprofhover a:hover p {display:block;}
+#h  {
+  display: -ms-flexbox;
+  /* display: flex; */
+  flex-wrap: nowrap;  /* flex-wrap: wrap; */
+  margin-right: -15px;
+  margin-left: -15px;
+}
+#no_resume{
+  visibility: visible;
+}
+
+.row1 {
+ 
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.container {
+  padding: 5px;
+}
+
+.sectionsep {
+  background-color: #FCA61F;
+  height: 2px;
+}
+
+#lefheader_profile{
+  background-color: #24d5fd;
+ }
+
+.bg-primary {
+  background-color: black;
+}
+
+.inputWidth {
+  width: fit-content;
+}
+
+.row{
+  text-align:left;
+
+    display: flex;
+    flex:1;
+    gap: 10px;
+  }
+
+
+.fonts{
+  font-size: large;
+  font-weight: 300;
+}
+.font-weight-bold{
+  font-size: x-large;
+  font-weight: 200;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+#submit{
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  width:100%;
+  float: right;
+  margin-bottom: 15px;
+  transition: all ease 0.5s;
+  background-color: #FCA61F; 
+}
+#submit:hover{
+  background-color: #788097;
+color:white
+}
+button:hover {
+  background-color: #242D49;
+
+}
+form {
+  display: block;
+  margin-bottom: 40em;
+}
+
+
+
+input[type=password],input[type=tel]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+.fw-bold{
+  color:#000000
+}
+a.list-group-item{
+  padding: .15rem 0.25rem;}
+ 
+.list-group{
+  max-height: 150px;
+  margin-bottom: 10px;
+  overflow-y:scroll;
+  -webkit-overflow-scrolling: touch;
+}
+#ulresume{
+  border: 1px solid #ccc;
+  border-style: groove;
+}
+@media screen and (max-width: 600px) {
+  button[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.icon-rtlfn{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+.icon-rtlln{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+
+}
+.icon-rtle:focus {
+  border: 2px solid #242D49;
+  background: white ;
+}
+.icon-rtlfn:focus {
+  border: 2px solid #242D49;
+  background: white ;
+}
+.icon-rtlln:focus {
+  border: 2px solid #242D49;
+  background: white ;
+}
+.icon-rtlfn::focus {
+  border: 2px solid #242D49;
+  background: white ;
+}
+.icon-rtlp:focus {
+  border: 2px solid #242D49;
+  background: white ;
+}
+.icon-rtlpw:focus {
+  border: 2px solid #242D49;
+  background: white ;
+}
